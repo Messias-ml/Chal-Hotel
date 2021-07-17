@@ -1,0 +1,112 @@
+body { position: relative;
+min-width: 1200px; }
+#conteudo {border: 0px solid red;
+	width: 80%;
+	min-width: 550px;
+	height: 250px;
+	margin: 0 auto 15px auto;
+}
+#conteudo2 {border: 0px solid red;
+width: 80%;
+min-width: 550px;
+margin-left: 10%;
+margin-right: 10%;
+position: relative;
+bottom: 240px;
+float: left;
+background: url('bg-container.png') repeat-y center;
+}
+#menu { border: 0px solid black;
+
+background: url(topo-imagem-principal.png)  no-repeat top;
+float: left;
+position: relative;
+width: 70%;
+height: 248px;
+
+}
+#topolateral { background: url(topo-imagem-lateral.png);
+width: 40%;
+height: 250px;
+float: right; 
+position: relative;
+bottom: 100%;
+}
+#topolateral img { float: right;
+margin-right: 5%;
+position: relative;
+top: 30%;}
+#topolateral ul { border: 0px solid red;
+	list-style-type: none;
+	position: relative;
+	top: 20%;
+	left: 10%;
+ }
+ #topolateral li { border: 0px solid blue;
+ 	padding: 7px 0px;
+ 	}
+ 	#topolateral a {
+ 	 text-decoration: none;
+ 	color:#6EA73E;}
+ 	#topolateral a:hover { color:#4FAD02; }
+ 	#escrito p { color:#6EA73E;
+ 	font-size: 12px; }
+ 	#escrito {border: 1px solid #6EA73E;
+ 		border-left: 0px;
+ 		border-right: 0px;
+ 		height: 15%;
+ 		width: 80%;
+ 		float: right;
+ 		position: relative;
+ 		bottom: 70%;
+ 		right: 5%;}
+ 		#escrito input {display: inline;
+ 			float: right;
+ 			position: relative;
+ 			bottom: 96%;
+ 			padding:2% 5%;
+ 			background: #92B057;
+ 			font-weight: bold;
+ 			color: #DDFD9E;
+ 			border: none;
+ 			cursor: pointer;}
+ 			#escrito input:hover {color:#92B057; background: #DDFD9E;}
+ 			#principal { float: left;
+ 				border: 0px solid yellow;
+ 				width: 50%;
+ 				background: url('bg-area-principal.png') repeat-x top;
+ 				
+ 			}
+ 			#principal h1 {color: #6EA73E;
+ 				margin:12px;}
+ 				#principal p {margin:12px;}
+ 			#lateral { 
+ 				border: 0px solid blue;
+ 				width: 50%;
+ 				float: left;
+ 				position: relative;
+ 			background: url('bg-area-lateral.png') repeat-x top;
+ 			}	
+ 			.container {border: 0px solid red;
+ 				margin: 18px 12px;
+ 				margin-bottom: 0px;
+
+ 				width: 88%;
+ 				float: left;}
+ 				.container img {width: 30%;
+ 					float: left;
+ 					margin-right: 5px;}
+ 					.container h4 { border: 0px solid blue;
+ 						color: #6EA73E;
+ 						margin: 0px;
+ 					}
+ 					.container p {margin: 0px; font-size: 14px;
+ 						color:black;}
+ 					hr {border: 1px solid white;
+ 						
+ 					}
+ 					.container a {text-decoration: none;
+ 					}
+ 					.container:hover {background: white;}
+
+ 	
